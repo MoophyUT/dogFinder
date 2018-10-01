@@ -1,0 +1,21 @@
+{
+  "name": "puppyfinder",
+  "version": "1.0.0",
+  "description": "Find me a puppy",
+  "main": "server.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "firebase-admin": "^6.0.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "firebase": "^5.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Edward So",
+  "license": "ISC"
+}
